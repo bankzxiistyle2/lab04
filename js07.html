@@ -1,0 +1,26 @@
+<html>
+
+<head>
+    <title>Example JS</title>
+</head>
+
+<body>
+    <script>
+    function windowHeight(){
+        if(document.body && document.body.clientHeight){
+            return document.body.clientHeight;
+        } else if(window.innerHeight){
+            return window.innerHeight;
+        } else {
+            return 0;
+        }
+    }
+    if(windowHeight()>=300){
+        document.location = "your html or http://";
+    } else {
+        document.location = "your html or http://";
+    }
+     </script>
+</body>
+
+</html>
